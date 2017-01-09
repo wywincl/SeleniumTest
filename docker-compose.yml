@@ -12,7 +12,7 @@ services:
   networks:
     - prodnetwork
  firefox:
-  image: wywincl/node-firefox-debug
+  image: wywincl/node-firefox-debug-zh
   ports:
     - "5901:5900"
   depends_on:
@@ -22,7 +22,7 @@ services:
   networks:
     - prodnetwork
  chrome:
-  image: wywincl/node-chrome-debug
+  image: wywincl/node-chrome-debug-zh
   ports:
     - "5902:5900"
   depends_on:
